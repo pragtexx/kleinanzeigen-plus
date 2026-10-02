@@ -2,9 +2,9 @@
 
 Kleinanzeigen + hilft dabei, Inserate als Vorlagen im Browser zu speichern und später schneller wiederzuverwenden. Du prüfst die übernommenen Angaben selbst und veröffentlichst dein Inserat eigenständig.
 
-- [Projektwebsite](https://pragtexx.github.io/kleinanzeigen-plus/)
-- [Datenschutzerklärung](https://pragtexx.github.io/kleinanzeigen-plus/privacy.html)
-- [Impressum](https://pragtexx.github.io/kleinanzeigen-plus/impressum.html)
+- [Projektwebsite](https://kleinanzeigen-plus.com/)
+- [Datenschutzerklärung](https://kleinanzeigen-plus.com/privacy.html)
+- [Impressum](https://kleinanzeigen-plus.com/impressum.html)
 
 Dieses öffentliche Repository enthält die Projektwebsite, Datenschutz und Impressum sowie das Manifest – nicht den Erweiterungsquellcode.
 

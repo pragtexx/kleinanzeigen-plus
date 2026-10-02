@@ -3,6 +3,7 @@
   "name": "Kleinanzeigen +",
   "version": "1.0.0",
   "description": "Vorlagen für Kleinanzeigen speichern, wiederverwenden und Inserate schneller erstellen.",
+  "homepage_url": "https://kleinanzeigen-plus.com/",
   "action": {
     "default_title": "Kleinanzeigen +",
     "default_popup": "popup.html?view=popup"
