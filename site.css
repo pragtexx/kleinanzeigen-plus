@@ -125,11 +125,12 @@ a:focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
 .site-footer nav a:hover { color: #c4540a; }
 
 .policy-page { min-height: 100vh; background: #f4f6f8; }
-.policy-header { position: static; width: min(100% - 96px, 1320px); height: 92px; margin-inline: auto; color: var(--navy); }
+.policy-header { position: static; display: flex; align-items: center; justify-content: space-between; gap: 24px; width: min(100% - 96px, 1320px); height: 92px; margin-inline: auto; color: var(--navy); }
 .policy-header .brand { color: var(--navy); }
 .policy-header .brand b { color: #c4540a; }
 .policy-header .brand small { display: block; margin-top: 2px; color: #647184; font-size: 11px; font-weight: 600; letter-spacing: 0; }
-.policy-header nav a { color: #647184; }
+.policy-header nav { display: flex; align-items: center; justify-content: flex-end; gap: clamp(12px, 2vw, 22px); margin-left: auto; }
+.policy-header nav a { color: #647184; font-size: 13px; font-weight: 600; text-decoration: none; white-space: nowrap; transition: color .18s ease; }
 .policy-header nav a:hover { color: #c4540a; }
 .policy-main { width: min(100% - 96px, 920px); margin-inline: auto; padding: 57px 0 92px; }
 .policy-main > .eyebrow { margin-bottom: 12px; }
@@ -203,14 +204,18 @@ a:focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
   .footer-owner { grid-column: 1 / -1; grid-row: 2; text-align: left; }
   .site-footer nav { grid-column: 1 / -1; grid-row: 3; justify-content: flex-start; flex-wrap: wrap; gap: 10px 17px; }
   .policy-header { width: calc(100% - 36px); height: 75px; }
-  .policy-header nav { gap: 0; }
-  .policy-header nav a:first-child { display: none; }
+  .policy-header nav { gap: 12px; }
   .policy-main { width: calc(100% - 40px); padding-block: 42px 72px; }
   .policy-main > h1 { font-size: 42px; }
   .policy-lede { font-size: 14px; }
   .policy-document { padding: 23px 19px; }
   .policy-document h2 { font-size: 16px; }
   .policy-document p, .policy-document address { font-size: 12px; }
+}
+@media (max-width: 380px) {
+  .policy-header { gap: 10px; }
+  .policy-header nav { gap: 0; }
+  .policy-header nav a:first-child { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
